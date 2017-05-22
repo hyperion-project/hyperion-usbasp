@@ -18,6 +18,12 @@ set(AVR_MCU atmega8)
 set(AVR_H_FUSE 0xc9)
 set(AVR_L_FUSE 0xef)
 
+# AVR and fuses needs to be set
+# untested but likely works with atmega88 based boards
+#set(AVR_MCU atmega88)
+#set(AVR_H_FUSE 0xdf)
+#set(AVR_L_FUSE 0xff)
+
 # status messages
 message(STATUS "Current MCU:    ${AVR_MCU}")
 message(STATUS "Current H_FUSE: ${AVR_H_FUSE}")
