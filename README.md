@@ -2,7 +2,8 @@
 
 AVR program to turn an [USBASP programmer](http://www.fischl.de/usbasp/) into a WS2801/WS2812 led controller for use with [Hyperion](https://github.com/hyperion-project/hyperion) that is capabale of driving up to 256 leds.
 
-Beware there are many different cheap USB AVR programmers - This has only neen tested with 
+Beware there are many different cheap USB AVR programmers - This has only neen tested with this one from ebay:
+![ebay usbasp v2](documentation/usbaspv2.png)
 
 As you will need to reflash the USBASP with this firmware, you will need an atmel AVR programmer. You can use:
 * Another usbasp with default firmware
